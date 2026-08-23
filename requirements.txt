@@ -1,0 +1,10 @@
+# Day 1 dependencies only.
+#
+# Everything else used today (sqlite3, pathlib, argparse, dataclasses) is
+# Python standard library — no entry needed here.
+#
+# pandas is NOT added yet. It will likely be added when the synthetic data
+# generator (Day 1, hours 4-6) or detectors (Day 2) are built, if it turns
+# out to be genuinely useful there — not added speculatively now.
+
+pytest>=8.0,<9.0
